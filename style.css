@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://img.freepik.com/free-vector/collection-virtual-foreign-currency-symbol-background-with-empty-frame_1017-52490.jpg?t=st=1726632344~exp=1726635944~hmac=06570ffafd95302195f003afdf723eeeff55d299efb3e4d7bb0a965b9294561f&w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1E2A5E;
+}
+.container{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    background-color: rgba(124, 147, 195, .2);
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    /* background-color:#7C93C3 ; */
+    border-radius: 1rem;
+    padding: 2rem;
+    min-height: 45vh;
+}
+.container img{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+
+    opacity: 0.9;
+    /* filter: brightness(89%); */
+    /* background-color: red; */
+    display: block;
+    border-radius: 1rem;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    /* background-color: red; */
+    margin: 2rem 0 1rem 0;
+}
+form select,button,input{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+
+    background-color: #3c876b;
+    color: #d6e3ff;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+
+form input{
+    /* background-color: red; */
+    border: 1.5px solid rgb(73, 72, 72);
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem ;
+    color: white;
+}
+.dropdown{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+
+}
+.select-container img{
+    background: none;
+    /* background-color: yellow; */
+    max-width: 2rem;
+    border-radius: 0.9rem;
+}
+
+.select-container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 6rem; */
+}
+.dropdown i{
+    /* background-color: red; */
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.amount p{
+    color: #d6e3ff;
+}
+.dropdown p{
+    color: #d6e3ff;
+
+
+}
+.select-container select{
+    /* background-color: #2d3b6b; */
+    margin-left: 9px;
+    padding-left: 9px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.select-container select:hover{
+    background-color: #0a100e;
+
+}
+.msg{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2rem 0 2rem 0;
+    font-size: 1.7rem;
+}
+
+form button{
+    height: 3rem;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #d6e3ff;
+    /* background-color: #2d3b6b; */
+    transition: background-color 0.25s ease;
+}
+form button:hover{
+    /* opacity: 0.7; */
+    background-color: #0a100e;
+}
+
